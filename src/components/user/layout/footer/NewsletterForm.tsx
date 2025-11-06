@@ -1,11 +1,11 @@
-import { useState } from "react";
-import { useTranslations } from "next-intl";
-import { validateEmail } from "@/utils/validates";
+import { useState } from 'react';
+import { useTranslations } from 'next-intl';
+import { validateEmail } from '@/utils/validates';
 
 export default function NewsLetterForm() {
   const t = useTranslations('Footer');
-  const [email, setEmail] = useState("");
-  const [error, setError] = useState("");
+  const [email, setEmail] = useState('');
+  const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
