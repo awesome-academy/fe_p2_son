@@ -2,5 +2,52 @@
   "HomePage": {
     "title": "Hello World",
     "description": "Nextjs Project 02"
+  },
+  "Header": {
+    "home": "Home",
+    "homeSubInfo": "Welcome to paradise",
+    "homeMainInfo": "Enjoy your journey",
+    "about": "About",
+    "aboutSubInfo": "Read",
+    "aboutMainInfo": "About Us",
+    "services": "Services",
+    "servicesSubInfo": "Discover",
+    "servicesMainInfo": "Our Services",
+    "packages": "Upcoming Packages",
+    "packagesSubInfo": "Explore",
+    "packagesMainInfo": "Upcoming Packages",
+    "getInTouch": "Get in Touch"
+  },
+  "Footer": {
+    "description": "Travel helps companies manage payments easily.",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "careers": "Careers",
+    "blog": "Blog",
+    "pricing": "Pricing",
+    "destinations": "Destinations",
+    "maldives": "Maldives",
+    "losAngeles": "Los Angeles",
+    "lasVegas": "Las Vegas",
+    "toronto": "Toronto",
+    "joinNewsletter": "Join Our Newsletter",
+    "emailPlaceholder": "Your email address",
+    "subscribe": "Subscribe",
+    "subscribing": "Subscribing",
+    "newsletterHint": "* Will send you weekly updates for your better tour packages.",
+    "copyright": "Copyright © Xpro 2022. All Rights Reserved.",
+    "invalidEmail": "Email is invalid!",
+    "checkEmail": "Check email and read news letter.",
+    "newsletterSuccess": "Đăng ký thành công"
+  },
+  "Subfooter": {
+    "promotion": "Promotion",
+    "title": "See What Our Clients Say About Us",
+    "designer": "Designer",
+    "photographer": "Photographer",
+    "travelBlogger": "Travel Blogger"
+  },
+  "Logo": {
+    "alt": "Company Logo"
   }
 }

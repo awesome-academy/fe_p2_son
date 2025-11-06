@@ -2,5 +2,52 @@
   "HomePage": {
     "title": "Xin chào",
     "description": "Chào mừng đến với Project 02 - Next.js"
+  },
+  "Header": {
+    "home": "Trang chủ",
+    "homeSubInfo": "Chào mừng đến với thiên đường",
+    "homeMainInfo": "Tận hưởng hành trình của bạn",
+    "about": "Về chúng tôi",
+    "aboutSubInfo": "Đọc",
+    "aboutMainInfo": "Về chúng tôi",
+    "services": "Dịch vụ",
+    "servicesSubInfo": "Khám phá",
+    "servicesMainInfo": "Dịch vụ của chúng tôi",
+    "packages": "Gói sắp tới",
+    "packagesSubInfo": "Khám phá",
+    "packagesMainInfo": "Các gói sắp tới",
+    "getInTouch": "Liên hệ"
+  },
+  "Footer": {
+    "description": "Du lịch giúp các công ty quản lý thanh toán dễ dàng.",
+    "company": "Công ty",
+    "aboutUs": "Về chúng tôi",
+    "careers": "Tuyển dụng",
+    "blog": "Blog",
+    "pricing": "Giá cả",
+    "destinations": "Điểm đến",
+    "maldives": "Maldives",
+    "losAngeles": "Los Angeles",
+    "lasVegas": "Las Vegas",
+    "toronto": "Toronto",
+    "joinNewsletter": "Tham gia bản tin của chúng tôi",
+    "emailPlaceholder": "Địa chỉ email của bạn",
+    "subscribe": "Đăng ký",
+    "subscribing": "Đang đăng ký",
+    "newsletterHint": "* Sẽ gửi cho bạn thông tin cập nhật hàng tuần về các gói tour tốt hơn.",
+    "copyright": "Bản quyền © Xpro 2022. Mọi quyền được bảo lưu.",
+    "invalidEmail": "Email không hợp lệ!",
+    "checkEmail": "Kiểm tra email và đọc bản tin mới nhất từ chúng tôi.",
+        "newsletterSuccess": "Successfully subcribed"
+  },
+  "Subfooter": {
+    "promotion": "Quảng bá",
+    "title": "Xem khách hàng của chúng tôi nói gì về chúng tôi",
+    "designer": "Nhà thiết kế",
+    "photographer": "Nhiếp ảnh gia",
+    "travelBlogger": "Travel Blogger"
+  },
+  "Logo": {
+    "alt": "Logo công ty"
   }
 }
