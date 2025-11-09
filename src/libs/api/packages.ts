@@ -5,6 +5,7 @@ import {
   DEFAULT_PRICE_MIN,
   DEFAULT_SORT_TYPE
 } from '@/constants/packages';
+import { Package } from '@/types/Package';
 
 export async function fetchPackages(
   sortType: string = DEFAULT_SORT_TYPE,
@@ -41,13 +42,27 @@ export async function fetchPackages(
     return await response.json();
 
   } catch (error: any) {
-    if (error.name === "TypeError") {
-      console.error("Network error or CORS:", error.message);
-    } else if (error.message?.includes("Failed to fetch")) {
-      console.error("No internet connection");
+    if (error.name === 'TypeError') {
+      console.error('Network error or CORS:', error.message);
+    } else if (error.message?.includes('Failed to fetch')) {
+      console.error('No internet connection');
     } else {
-      console.error("Unknown error:", error.message);
+      console.error('Unknown error:', error.message);
     }
+    return null;
+  }
+}
+
+export async function fetchPackageData(id: string): Promise<Package | null> {
+  try {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/packages/${id}`);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data: Package = await response.json();
+    return data;
+  } catch (e) {
+    console.error('Error fetching package:', e);
     return null;
   }
 }
