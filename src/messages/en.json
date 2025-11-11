@@ -49,5 +49,28 @@
   },
   "Logo": {
     "alt": "Company Logo"
+  },
+  "FilterByPrice": {
+    "filterByPrice": "Filter By Price",
+    "price": "Price"
+  },
+  "FilterSidebar": {
+    "planYourTrip": "Plan Your Trip",
+    "description": "Et explo sapasti et quas praesentium in nostrum labore rem rerum laborum aut magni nesciunt.",
+    "bookNow": "Book Now"
+  },
+  "SearchForm": {
+    "searchTour": "Search Tour",
+    "whereTo": "Where To?"
+  },
+  "PackagesClient": {
+    "noPackagesFound": "No packages found.",
+    "failedToLoadPackages": "Failed to load packages"
+  },
+  "SortTools": {
+    "date": "Date",
+    "priceLowToHigh": "Price Low To High",
+    "priceHighToLow": "Price High To Low",
+    "nameAZ": "Name (A-Z)"
   }
 }

@@ -38,7 +38,7 @@
     "copyright": "Bản quyền © Xpro 2022. Mọi quyền được bảo lưu.",
     "invalidEmail": "Email không hợp lệ!",
     "checkEmail": "Kiểm tra email và đọc bản tin mới nhất từ chúng tôi.",
-        "newsletterSuccess": "Successfully subcribed"
+    "newsletterSuccess": "Successfully subcribed"
   },
   "Subfooter": {
     "promotion": "Quảng bá",
@@ -49,5 +49,28 @@
   },
   "Logo": {
     "alt": "Logo công ty"
+  },
+  "FilterByPrice": {
+    "filterByPrice": "Lọc theo giá",
+    "price": "Giá"
+  },
+  "FilterSidebar": {
+    "planYourTrip": "Lên kế hoạch chuyến đi của bạn",
+    "description": "Et explo sapasti et quas praesentium in nostrum labore rem rerum laborum aut magni nesciunt.",
+    "bookNow": "Đặt ngay"
+  },
+  "SearchForm": {
+    "searchTour": "Tìm kiếm Tour",
+    "whereTo": "Đi đâu?"
+  },
+  "PackagesClient": {
+    "noPackagesFound": "Không thấy chuyến đi phù hợp.",
+    "failedToLoadPackages": "Không thể tải các gói"
+  },
+  "SortTools": {
+    "date": "Ngày",
+    "priceLowToHigh": "Giá từ thấp đến cao",
+    "priceHighToLow": "Giá từ cao đến thấp",
+    "nameAZ": "Tên (A-Z)"
   }
 }

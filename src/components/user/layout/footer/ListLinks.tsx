@@ -1,4 +1,4 @@
-import LinkFooter from "./LinkFooter";
+import LinkFooter from './LinkFooter';
 
 interface LinkItem {
   title: string;

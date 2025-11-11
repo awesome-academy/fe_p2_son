@@ -1,5 +1,5 @@
-import { FaQuoteLeft } from "react-icons/fa";
-import Image from "next/image";
+import { FaQuoteLeft } from 'react-icons/fa';
+import Image from 'next/image';
 
 interface QuoteCommentProps {
   avatar: string;

@@ -1,7 +1,7 @@
 import { FaInfinity } from 'react-icons/fa';
 import { FiLinkedin, FiTwitter, FiMessageCircle } from 'react-icons/fi';
 import { useTranslations } from 'next-intl';
-import Logo from "@/components/commons/Logo";
+import Logo from '@/components/commons/Logo';
 import Link from 'next/link';
 
 export default function Media() {
