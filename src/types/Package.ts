@@ -11,6 +11,7 @@ export interface Package {
   price: number;
   rating: number;
   img: string;
+  images: string[];
   deadline: string;
   participants: number;
   shortDescription: string;

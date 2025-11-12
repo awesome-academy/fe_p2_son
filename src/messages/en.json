@@ -72,5 +72,72 @@
     "priceLowToHigh": "Price Low To High",
     "priceHighToLow": "Price High To Low",
     "nameAZ": "Name (A-Z)"
+  },
+  "BookForm": {
+    "nameRequired": "Name is required",
+    "invalidEmail": "Invalid email address",
+    "phoneMinLength": "Phone number must be at least 10 digits",
+    "phoneMaxLength": "Phone number must be at most 15 digits",
+    "dateRequired": "Date is required",
+    "ticketsMustBeNumber": "Number of tickets must be a number",
+    "ticketsRequired": "Number of tickets is required",
+    "emailsDoNotMatch": "Emails do not match",
+    "bookThisTour": "Book This Tour",
+    "bookFormDescription": "Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolo.",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "confirmEmailPlaceholder": "Confirm Email",
+    "phonePlaceholder": "Phone",
+    "datePlaceholder": "dd-mm-yy",
+    "numberOfTicketsPlaceholder": "Number of ticket",
+    "messagePlaceholder": "Message",
+    "checkAvailability": "Check Availability",
+    "bookNow": "Book Now",
+    "availabilitySuccess": "Availability checked successfully!",
+    "availabilityError": "Could not check availability. Please try again.",
+    "bookSuccess": "Booking successful! Thank you.",
+    "bookError": "Booking failed. Please try again.",
+    "simulateSuccess": "Simulate successful operation"
+  },
+  "TabMenu": {
+    "information": "Information",
+    "tourPlan": "Tour Plan",
+    "location": "Location",
+    "gallery": "Gallery"
+  },
+  "GalleryContent": {
+    "title": "From our gallery",
+    "description": "Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolo.",
+    "imageAlt": "Gallery image {index}",
+    "noImagesAvailable": "No images available"
+  },
+  "PackageCard": {
+    "participants": "participants",
+    "price": "${price}"
+  },
+  "TourInformation": {
+    "perCouple": "Per Couple",
+    "kReview": "k review",
+    "destination": "Destination",
+    "departure": "Departure",
+    "departureTime": "Departure Time",
+    "returnTime": "Return Time",
+    "dressCode": "Dress Code",
+    "notIncluded": "Not Included",
+    "included": "Included"
+  },
+  "TourLocation": {
+    "noLocationInfo": "No location information available.",
+    "description1": "Qui Tempore Voluptate Qui Quia Commodi Rem Praesentium Alias Et Voluptates Officia Sed Molestiae Sint Et Voluptates Quos. Qui Harum Repudiandae Galisum Dolorem Hic Deleniti Officiis Est Sapiente Explicabo Non Eaque Corporis Aut Voluptatum Iusto At Facere Enim Id Voluptas Reprehenderit. Ut Voluptas Laudantium",
+    "mapTitle": "Google Map of Los Angeles Trade Technical College",
+    "description2": "Sit Quasi Soluta Non Temporibus Voluptas Non Necessitatibus Tempore Sit Deleniti Praesentium Aut Velit Nostrum Ut Itaque Atque Ad Expedita Veniam. Hic Deleniti Officiis Est Sapiente Explicabo Non Eaque Corporis Aut Voluptatum Iusto At Facere Enim Id Voluptas Reprehenderit. Ut Voluptas Laudantium Et Molestias Voluptatem Ex Doloremque Omnis Est Ipsum Nihil.",
+    "description3": "Quo Facere Eveniet 33 Sint Rerum Est Internos Impedit Sed Dignissimos Quia. Et Rerum Deleniti Et Voluptates Saepe Qui Labore Quisquam Non Accusantium Temporibus. Quo Velit Numquam Hic Excepturi Sequi Sed Dicta Doloribus! In Quos Possimus Quo Quibusdam Aliquid Est Culpa Porro Sed Molestiae Libero At Blanditiis Minima A Reiciendis Fugiat."
+  },
+  "TourPlanDayItem": {
+    "day": "Day {day}"
+  },
+  "PackageDetailPage": {
+    "noPackageFound": "No package found.",
+    "loading": "Loading package details..."
   }
 }

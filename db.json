@@ -6,6 +6,11 @@
       "price": 1400,
       "rating": 5.0,
       "img": "https://picsum.photos/seed/1/300/200",
+      "images": [
+        "https://picsum.photos/seed/1/300/200",
+        "https://picsum.photos/seed/101/600/400",
+        "https://picsum.photos/seed/102/600/400"
+      ],
       "deadline": "2025-12-31",
       "participants": 100,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
@@ -76,6 +81,11 @@
       "price": 1200,
       "rating": 4.9,
       "img": "https://picsum.photos/seed/2/300/200",
+      "images": [
+        "https://picsum.photos/seed/2/300/200",
+        "https://picsum.photos/seed/103/600/400",
+        "https://picsum.photos/seed/104/600/400"
+      ],
       "deadline": "2025-11-15",
       "participants": 80,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
@@ -147,6 +157,11 @@
       "price": 1000,
       "rating": 5.0,
       "img": "https://picsum.photos/seed/3/300/200",
+      "images": [
+        "https://picsum.photos/seed/3/300/200",
+        "https://picsum.photos/seed/105/600/400",
+        "https://picsum.photos/seed/106/600/400"
+      ],
       "deadline": "2026-01-20",
       "participants": 120,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
@@ -218,6 +233,11 @@
       "price": 2000,
       "rating": 4.8,
       "img": "https://picsum.photos/seed/4/300/200",
+      "images": [
+        "https://picsum.photos/seed/4/300/200",
+        "https://picsum.photos/seed/107/600/400",
+        "https://picsum.photos/seed/108/600/400"
+      ],
       "deadline": "2025-10-01",
       "participants": 90,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
@@ -289,6 +309,11 @@
       "price": 1400,
       "rating": 5.0,
       "img": "https://picsum.photos/seed/5/300/200",
+      "images": [
+        "https://picsum.photos/seed/5/300/200",
+        "https://picsum.photos/seed/109/600/400",
+        "https://picsum.photos/seed/110/600/400"
+      ],
       "deadline": "2026-02-10",
       "participants": 70,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
@@ -360,6 +385,11 @@
       "price": 1200,
       "rating": 4.8,
       "img": "https://picsum.photos/seed/6/300/200",
+      "images": [
+        "https://picsum.photos/seed/6/300/200",
+        "https://picsum.photos/seed/111/600/400",
+        "https://picsum.photos/seed/112/600/400"
+      ],
       "deadline": "2025-09-25",
       "participants": 110,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
@@ -431,6 +461,11 @@
       "price": 1800,
       "rating": 4.7,
       "img": "https://picsum.photos/seed/7/300/200",
+      "images": [
+        "https://picsum.photos/seed/7/300/200",
+        "https://picsum.photos/seed/113/600/400",
+        "https://picsum.photos/seed/114/600/400"
+      ],
       "deadline": "2026-03-05",
       "participants": 150,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
@@ -502,6 +537,11 @@
       "price": 2500,
       "rating": 4.9,
       "img": "https://picsum.photos/seed/8/300/200",
+      "images": [
+        "https://picsum.photos/seed/8/300/200",
+        "https://picsum.photos/seed/115/600/400",
+        "https://picsum.photos/seed/116/600/400"
+      ],
       "deadline": "2025-12-01",
       "participants": 130,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
@@ -573,6 +613,11 @@
       "price": 1600,
       "rating": 5.0,
       "img": "https://picsum.photos/seed/9/300/200",
+      "images": [
+        "https://picsum.photos/seed/9/300/200",
+        "https://picsum.photos/seed/117/600/400",
+        "https://picsum.photos/seed/118/600/400"
+      ],
       "deadline": "2026-01-10",
       "participants": 60,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
@@ -644,6 +689,11 @@
       "price": 2200,
       "rating": 4.8,
       "img": "https://picsum.photos/seed/10/300/200",
+      "images": [
+        "https://picsum.photos/seed/10/300/200",
+        "https://picsum.photos/seed/119/600/400",
+        "https://picsum.photos/seed/120/600/400"
+      ],
       "deadline": "2025-11-20",
       "participants": 140,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
@@ -715,6 +765,11 @@
       "price": 3000,
       "rating": 5.0,
       "img": "https://picsum.photos/seed/11/300/200",
+      "images": [
+        "https://picsum.photos/seed/11/300/200",
+        "https://picsum.photos/seed/121/600/400",
+        "https://picsum.photos/seed/122/600/400"
+      ],
       "deadline": "2026-02-28",
       "participants": 200,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
@@ -786,6 +841,11 @@
       "price": 900,
       "rating": 4.7,
       "img": "https://picsum.photos/seed/12/300/200",
+      "images": [
+        "https://picsum.photos/seed/12/300/200",
+        "https://picsum.photos/seed/123/600/400",
+        "https://picsum.photos/seed/124/600/400"
+      ],
       "deadline": "2025-10-15",
       "participants": 95,
       "shortDescription": "Qui Temporam Voluptate Qui Quia Commodi Rem Praesentium Alias Et.",
