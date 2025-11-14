@@ -1,7 +1,7 @@
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 
-import '../globals.css';
+import '../../globals.css';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import Header from '@/components/user/layout/header/Header';
