@@ -79,6 +79,11 @@
     "priceHighToLow": "Price High To Low",
     "nameAZ": "Name (A-Z)"
   },
+  "SortTool": {
+    "sortBy": "Sort by",
+    "sortByDate": "Check-in time",
+    "sortByTitle": "Package name"
+  },
   "BookForm": {
     "nameRequired": "Name is required",
     "invalidEmail": "Invalid email address",
@@ -195,5 +200,31 @@
     "and": "and",
     "privacyPolicy": "Privacy Policy",
     "enterPassword": "Enter password"
+  },
+  "BookingsPage": {
+    "loadingBookings": "Loading bookings...",
+    "errorLoadingBookings": "Error: {error}",
+    "noBookingsFound": "No bookings found"
+  },
+  "BookingCard": {
+    "checkIn": "Check in",
+    "checkOut": "Check out",
+    "bookingCode": "Code",
+    "manageBooking": "Manage booking",
+    "submitReview": "Submit your review",
+    "statusCompleted": "Completed",
+    "statusUpcoming": "Upcoming",
+    "statusCancelled": "Cancelled"
+  },
+  "BookingTabs": {
+    "upcoming": "Upcoming",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "BookingsSlice": {
+    "failedToFetchBookings": "Failed to fetch bookings"
+  },
+  "SearchTool": {
+    "searchPlaceholder": "Search by code, package name, or location"
   }
 }
