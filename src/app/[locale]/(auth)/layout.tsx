@@ -4,10 +4,8 @@ import { getMessages } from 'next-intl/server';
 import '../../globals.css';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
-import Header from '@/components/user/layout/header/Header';
-import Subfooter from '@/components/user/layout/subfooter/Subfooter';
-import Footer from '@/components/user/layout/footer/Footer';
 import Providers from '@/components/auth/Provider';
+import AuthFooter from '@/components/auth/common/AuthFooter';
 
 export default async function RootLayout({
   children,
@@ -26,12 +24,16 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-            <Providers>
-              <Header />
-              {children}
-            </Providers>
-            <Subfooter />
-            <Footer />
+          <Providers>
+            <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex items-center justify-center p-4">
+              <div className="w-full max-w-md">
+                <div className="bg-white rounded-2xl shadow-xl p-8">
+                  {children}
+                </div>
+                <AuthFooter />
+              </div>
+            </div>
+          </Providers>
         </NextIntlClientProvider>
       </body>
     </html>
