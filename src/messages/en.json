@@ -16,7 +16,13 @@
     "packages": "Upcoming Packages",
     "packagesSubInfo": "Explore",
     "packagesMainInfo": "Upcoming Packages",
-    "getInTouch": "Get in Touch"
+    "getInTouch": "Get in Touch",
+    "guest": "Guest",
+    "myAccount": "My Account",
+    "welcome": "Welcome",
+    "logout": "Logout",
+    "myBookings": "My Bookings",
+    "settings": "Settings"
   },
   "Footer": {
     "description": "Travel helps companies manage payments easily.",
@@ -179,6 +185,7 @@
     "loginWithGoogle": "Continue with Google",
     "loginBtn": "Login",
     "logoutBtn": "Logout",
+    "registerBtn": "Register",
     "processing": "Processing...",
     "or": "or",
     "noAccount": "No account?",

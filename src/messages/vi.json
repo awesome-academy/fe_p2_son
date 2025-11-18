@@ -16,7 +16,13 @@
     "packages": "Gói sắp tới",
     "packagesSubInfo": "Khám phá",
     "packagesMainInfo": "Các gói sắp tới",
-    "getInTouch": "Liên hệ"
+    "getInTouch": "Liên hệ",
+    "guest": "Khách",
+    "myAccount": "Tài khoản của tôi",
+    "welcome": "Chào mừng",
+    "logout": "Đăng xuất",
+    "myBookings": "Đơn đặt chỗ của tôi",
+    "settings": "Cài đặt"
   },
   "Footer": {
     "description": "Du lịch giúp các công ty quản lý thanh toán dễ dàng.",
@@ -179,6 +185,7 @@
     "loginWithGoogle": "Đăng nhập với Google",
     "loginBtn": "Đăng nhập",
     "logoutBtn": "Đăng xuất",
+    "registerBtn": "Đăng ký",
     "processing": "Đang xử lý...",
     "or": "hoặc",
     "noAccount": "Chưa có tài khoản?",
