@@ -97,16 +97,10 @@
       "departureTime": "09:00 AM",
       "returnTime": "05:00 PM",
       "dressCode": "Smart Casual",
-      "notIncluded": [
-        "Dinner",
-        "Personal expenses"
-      ],
-      "included": [
-        "Accommodation",
-        "City Tour",
-        "Breakfast"
-      ],
-      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.407496200969!2d13.37770001584219!3d52.5170368798796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851d7a7e2e3b7%3A0x1e2e2e2e2e2e2e2e!2sBrandenburg%20Gate!5e0!3m2!1sen!2sus!4v1629789421000!5m2!1sen!2sus",
+      "notIncluded": ["Dinner", "Personal expenses"],
+      "included": ["Accommodation","City Tour", "Breakfast"],
+      "location": "Brandenburg Gate, Berlin, Germany",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.407496200969!2d13.37770001584219!3d52.5170368798796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851d7a7e2e3b7%3A0x1e2e2e2e2e2e2e2e!2sBrandenburg%20Gate!5e0!3m2!1sen!2sus!4v1629789421000!5m2!1sen!2sus",
       "packagePlans": [
         {
           "day": 1,
@@ -931,6 +925,62 @@
       "username": "hahongson",
       "email": "ha.hong.son@sun-asterisk.com",
       "password": "$2b$10$Nceuw574W/Psn1KwQEp16eApYN1Na8mvV3WMMoqqNNDBGDsetQ9U."
+    }
+  ],
+  "bookings": [
+    {
+      "userId": "1",
+      "id": 1636810450,
+      "packageId": 1,
+      "status": "completed",
+      "checkIn": "Th 4, 13 Thg 8",
+      "checkOut": "Th 6, 15 Thg 8",
+      "createdAt": "2024-08-01"
+    },
+    {
+      "userId": "1",
+      "id": 1636810451,
+      "packageId": 2,
+      "status": "upcoming",
+      "checkIn": "Th 2, 20 Thg 11",
+      "checkOut": "Th 7, 25 Thg 11",
+      "createdAt": "2024-11-10"
+    },
+    {
+      "userId": "1",
+      "id": 1636810452,
+      "packageId": 3,
+      "status": "upcoming",
+      "checkIn": "Th 3, 18 Thg 12",
+      "checkOut": "Th 6, 21 Thg 12",
+      "createdAt": "2024-11-12"
+    },
+    {
+      "userId": "1",
+      "id": 1636810453,
+      "packageId": 4,
+      "status": "cancelled",
+      "checkIn": "Th 5, 10 Thg 10",
+      "checkOut": "Th 2, 15 Thg 10",
+      "createdAt": "2024-09-25"
+    },
+    {
+      "userId": "1",
+      "id": 1636810454,
+      "packageId": 5,
+      "status": "completed",
+      "checkIn": "Th 2, 5 Thg 9",
+      "checkOut": "Th 7, 10 Thg 9",
+      "createdAt": "2024-08-20"
+    },
+    {
+      "userId": "1",
+      "id": 1636810455,
+      "packageId": 6,
+      "status": "upcoming",
+      "checkIn": "Th 4, 1 Thg 12",
+      "checkOut": "Th 2, 6 Thg 12",
+      "createdAt": "2024-11-14"
     }
   ]
 }

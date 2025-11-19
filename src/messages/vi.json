@@ -79,6 +79,11 @@
     "priceHighToLow": "Giá từ cao đến thấp",
     "nameAZ": "Tên (A-Z)"
   },
+  "SortTool": {
+    "sortBy": "Sắp xếp theo",
+    "sortByDate": "Thời gian checkin",
+    "sortByTitle": "Tên gói"
+  },
   "BookForm": {
     "nameRequired": "Tên là bắt buộc",
     "invalidEmail": "Địa chỉ email không hợp lệ",
@@ -195,5 +200,31 @@
     "and": "và",
     "privacyPolicy": "Chính sách bảo mật",
     "enterPassword": "Nhập mật khẩu"
+  },
+  "BookingsPage": {
+    "loadingBookings": "Đang tải các đơn đặt chỗ...",
+    "errorLoadingBookings": "Lỗi: {error}",
+    "noBookingsFound": "Không tìm thấy đơn đặt chỗ nào"
+  },
+  "BookingCard": {
+    "checkIn": "Thời gian checkin",
+    "checkOut": "Thời gian checkout",
+    "bookingCode": "Mã",
+    "manageBooking": "Quản lý đơn đặt chỗ",
+    "submitReview": "Gửi đánh giá của bạn",
+    "statusCompleted": "Đã hoàn thành",
+    "statusUpcoming": "Sắp tới",
+    "statusCancelled": "Đã hủy"
+  },
+  "BookingTabs": {
+    "upcoming": "Sắp tới",
+    "completed": "Hoàn tất",
+    "cancelled": "Đã hủy"
+  },
+  "BookingsSlice": {
+    "failedToFetchBookings": "Không thể tải các đơn đặt chỗ"
+  },
+  "SearchTool": {
+    "searchPlaceholder": "Tìm kiếm theo mã, tên gói hoặc địa điểm"
   }
 }
