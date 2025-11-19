@@ -199,7 +199,11 @@
     "termsOfService": "Điều khoản dịch vụ",
     "and": "và",
     "privacyPolicy": "Chính sách bảo mật",
-    "enterPassword": "Nhập mật khẩu"
+    "enterPassword": "Nhập mật khẩu",
+    "confirmLogoutTitle": "Xác nhận đăng xuất",
+    "confirmLogoutMessage": "Bạn có chắc chắn muốn đăng xuất không?",
+    "cancelBtn": "Hủy"
+
   },
   "BookingsPage": {
     "loadingBookings": "Đang tải các đơn đặt chỗ...",

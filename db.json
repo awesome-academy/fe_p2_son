@@ -918,13 +918,15 @@
       "id": "1",
       "email": "test@example.com",
       "password": "$2a$10$abcdefghijklmnopqrstuvwxy.abcdefghijklmnopqrstuvwxy.abcdefghijkl",
-      "username": "testuser"
+      "username": "testuser",
+      "role": "user"
     },
     {
       "id": "2",
-      "username": "hahongson",
-      "email": "ha.hong.son@sun-asterisk.com",
-      "password": "$2b$10$Nceuw574W/Psn1KwQEp16eApYN1Na8mvV3WMMoqqNNDBGDsetQ9U."
+      "username": "sonha1234",
+      "email": "sonhh2003@gmail.com",
+      "password": "$2b$10$fxAFGXRMs2Yb3Qk9WCDRKe19qDUPNQeLwpoFPnQvzhxX.t4sswaa2",
+      "role": "admin"
     }
   ],
   "bookings": [

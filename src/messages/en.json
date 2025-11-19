@@ -199,7 +199,10 @@
     "termsOfService": "Terms of Service",
     "and": "and",
     "privacyPolicy": "Privacy Policy",
-    "enterPassword": "Enter password"
+    "enterPassword": "Enter password",
+    "confirmLogoutTitle": "Confirm Logout",
+    "confirmLogoutMessage": "Are you sure you want to logout?",
+    "cancelBtn": "Cancel"
   },
   "BookingsPage": {
     "loadingBookings": "Loading bookings...",

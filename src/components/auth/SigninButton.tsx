@@ -12,6 +12,7 @@ export default function SignInButton() {
   const commonButtonClasses = "ml-5 flex items-center gap-2 text-white px-4 py-2 rounded-lg";
 
   if (session?.user) {
+    console.log('User is signed in:', session.user);
     return (
       <button
         onClick={() => signOut()}

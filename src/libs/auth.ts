@@ -30,6 +30,7 @@ export async function registerUser(username: string, email: string, password: st
     username,
     email,
     password: hashedPassword,
+    role: 'user',
   };
 
   db.users.push(newUser);
