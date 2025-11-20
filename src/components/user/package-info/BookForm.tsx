@@ -9,9 +9,17 @@ import { MdOutlineCalendarMonth } from "react-icons/md";
 import { LuTicketsPlane } from "react-icons/lu";
 import { AiOutlineMessage } from "react-icons/ai";
 import { useTranslations } from 'next-intl';
+import { useSession } from 'next-auth/react';
+import { useRouter } from 'next/navigation';
 
-export default function BookForm() {
+interface BookFormProps {
+  packageId: number;
+}
+
+export default function BookForm({ packageId }: BookFormProps) {
   const t = useTranslations('BookForm');
+  const { data: session } = useSession();
+  const router = useRouter();
 
   const bookFormSchema = z.object({
     name: z.string().min(1, t('nameRequired')),
@@ -84,12 +92,34 @@ export default function BookForm() {
     }
   };
 
-  const handleBookNow = (e: React.FormEvent) => {
+  const handleBookNow = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!session) {
+      setMessage({ type: 'error', text: t('loginRequiredForBooking') });
+      return;
+    }
     if (validateForm()) {
-      setTimeout(() => {
-        if (demoSuccess) {
+      try {
+        const response = await fetch('/api/bookings', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            packageId: Number(packageId),
+            name: formData.name,
+            email: formData.email,
+            phone: formData.phone,
+            date: formData.date,
+            numberOfTickets: parseInt(formData.numberOfTickets, 10),
+            message: formData.message,
+          }),
+        });
+
+        if (response.ok) {
           setMessage({ type: 'success', text: t('bookSuccess') });
+          const bookingData = await response.json();
+          router.push(`/bookings/${bookingData.booking.id}`);
           setFormData({
             name: '',
             email: '',
@@ -100,9 +130,12 @@ export default function BookForm() {
             message: '',
           });
         } else {
-          setMessage({ type: 'error', text: t('bookError') });
+          const errorData = await response.json();
+          setMessage({ type: 'error', text: errorData.message || t('bookError') });
         }
-      }, 1000);
+      } catch (error) {
+        setMessage({ type: 'error', text: t('bookError') });
+      }
     }
   };
 
@@ -181,18 +214,6 @@ export default function BookForm() {
               {message.text}
             </div>
           )}
-          <div className="flex items-center space-x-2">
-            <input
-              type="checkbox"
-              id="demoSuccessToggle"
-              checked={demoSuccess}
-              onChange={(e) => setDemoSuccess(e.target.checked)}
-              className="form-checkbox h-5 w-5 text-[#DF6951] rounded"
-            />
-            <label htmlFor="demoSuccessToggle" className="text-gray-700">
-              {t('simulateSuccess')}
-            </label>
-          </div>
           <button
             type="submit"
             onClick={handleCheckAvailability}

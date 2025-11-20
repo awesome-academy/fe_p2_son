@@ -21,7 +21,7 @@ export default function PackageContent({ packageData }: PackageContentProps) {
           <TabContent active={active} packageData={packageData} />
         </div>
         <div className="w-[40%]">
-          <BookForm />
+          <BookForm packageId={packageData.id} />
         </div>
       </div>
     </div>

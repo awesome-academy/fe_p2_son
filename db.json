@@ -98,7 +98,7 @@
       "returnTime": "05:00 PM",
       "dressCode": "Smart Casual",
       "notIncluded": ["Dinner", "Personal expenses"],
-      "included": ["Accommodation","City Tour", "Breakfast"],
+      "included": ["Accommodation", "City Tour", "Breakfast"],
       "location": "Brandenburg Gate, Berlin, Germany",
       "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.407496200969!2d13.37770001584219!3d52.5170368798796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851d7a7e2e3b7%3A0x1e2e2e2e2e2e2e2e!2sBrandenburg%20Gate!5e0!3m2!1sen!2sus!4v1629789421000!5m2!1sen!2sus",
       "packagePlans": [
@@ -983,6 +983,34 @@
       "checkIn": "Th 4, 1 Thg 12",
       "checkOut": "Th 2, 6 Thg 12",
       "createdAt": "2024-11-14"
+    },
+    {
+      "id": 1636810456,
+      "userId": "100317063445681371901",
+      "packageId": 4,
+      "status": "upcoming",
+      "checkIn": "2025-11-22",
+      "checkOut": "2025-11-22",
+      "createdAt": "2025-11-20T05:50:40.433Z",
+      "name": "Son Ha",
+      "email": "ha.hong.son@sun-asterisk.com",
+      "phone": "0397541644",
+      "numberOfTickets": 3,
+      "message": ""
+    },
+    {
+      "id": 1636810457,
+      "userId": "113928559472374782341",
+      "packageId": 12,
+      "status": "upcoming",
+      "checkIn": "2025-11-21",
+      "checkOut": "2025-11-21",
+      "createdAt": "2025-11-20T07:59:34.085Z",
+      "name": "Ha Hong Son",
+      "email": "sonhh2003@gmail.com",
+      "phone": "0397541644",
+      "numberOfTickets": 5,
+      "message": "Mua cho chau"
     }
   ]
 }

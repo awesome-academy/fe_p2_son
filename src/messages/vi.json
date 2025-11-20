@@ -108,7 +108,9 @@
     "availabilityError": "Không thể kiểm tra tình trạng. Vui lòng thử lại.",
     "bookSuccess": "Đặt chỗ thành công! Cảm ơn bạn.",
     "bookError": "Đặt chỗ thất bại. Vui lòng thử lại.",
-    "simulateSuccess": "Mô phỏng hoạt động thành công"
+    "updatePersonalInfo": "Cập nhập thông tin cá nhân",
+    "updateSuccess": "Cập nhật thông tin thành công!",
+    "updateFailed": "Cập nhật thông tin thất bại. Vui lòng thử lại."
   },
   "TabMenu": {
     "information": "Thông tin",
@@ -230,5 +232,27 @@
   },
   "SearchTool": {
     "searchPlaceholder": "Tìm kiếm theo mã, tên gói hoặc địa điểm"
+  },
+  "BookingSummary": {
+    "tourCode": "Mã tour",
+    "checkInDate": "Ngày khởi hành",
+    "checkOutDate": "Ngày kết thúc",
+    "numberOfTickets": "Số lượng vé",
+    "total": "Tổng cộng",
+    "cancelTour": "Hủy Tour"
+  },
+  "PaymentMethod": {
+    "title": "Phương Thức Thanh Toán",
+    "transferPayment": "Thanh toán chuyển khoản"
+  },
+  "BookingSchema": {
+    "packageIdNumber": "Mã gói phải là số",
+    "nameRequired": "Tên là bắt buộc",
+    "invalidEmail": "Địa chỉ email không hợp lệ",
+    "phoneMinLength": "Số điện thoại phải có ít nhất 10 ký tự",
+    "phoneMaxLength": "Số điện thoại không được vượt quá 15 ký tự",
+    "dateRequired": "Ngày là bắt buộc",
+    "ticketsNumber": "Số lượng vé phải là một số",
+    "ticketsRequired": "Số lượng vé là bắt buộc"
   }
 }
