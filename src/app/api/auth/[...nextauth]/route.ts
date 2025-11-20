@@ -43,6 +43,7 @@ export const authOptions: AuthOptions = {
           id: user.id,
           email: user.email,
           username: user.username,
+          role: user.role,
         };
       }
     })
@@ -52,6 +53,7 @@ export const authOptions: AuthOptions = {
       if (user) {
         token.id = user.id;
         token.username = user.username;
+        token.role = user.role;
       }
       return token;
     },
@@ -59,6 +61,7 @@ export const authOptions: AuthOptions = {
       if (session.user) {
         session.user.id = token.id as string;
         session.user.username = token.username as string;
+        session.user.role = token.role as 'user' | 'admin';
       }
       return session;
     }
