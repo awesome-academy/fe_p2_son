@@ -1,18 +1,25 @@
-import { FiMessageSquare } from "react-icons/fi";
+'use client';
+
+import { FiMessageSquare } from 'react-icons/fi';
 import { useTranslations } from 'next-intl';
 import BookingActionButton from './BookingActionButton';
-import { Booking } from "@/types/Booking";
-
+import { Booking } from '@/types/Booking';
+import { useRouter } from 'next/navigation';
 interface BookingCardActionsProps {
   booking: Booking;
 }
 
 export default function BookingCardActions({ booking }: BookingCardActionsProps) {
   const t = useTranslations('BookingCard');
+  const route = useRouter();
+
+  const handleManageBooking = () => {
+    route.push(`/bookings/${booking.id}`);
+  };
 
   return (
     <div className="border-t border-gray-100 px-4 py-3 flex gap-5 items-center justify-end bg-gray-50">
-      <BookingActionButton className="text-blue-600 hover:text-blue-700">
+      <BookingActionButton className="text-blue-600 hover:text-blue-700" onClick={handleManageBooking}>
         {t('manageBooking')}
       </BookingActionButton>
       {booking.status === 'completed' && (

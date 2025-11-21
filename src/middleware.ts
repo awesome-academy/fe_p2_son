@@ -31,8 +31,16 @@ export default async function middleware(req: NextRequest) {
     return NextResponse.redirect(url);
   }
 
+
   const isAdminRoute = pathname.startsWith(`/${locale}/admin`);
+  const isUserProtectedRoute = pathname.startsWith(`/${locale}/bookings`) || pathname.startsWith(`/${locale}/profile`);
   const token = await getToken({ req, secret: process.env.NEXTAUTH_SECRET });
+
+  if (isUserProtectedRoute && !token) {
+    const url = new URL(`/${locale}/login`, req.url);
+    url.searchParams.set('callbackUrl', req.nextUrl.pathname);
+    return NextResponse.redirect(url);
+  }
 
   if (isAdminRoute) {
     if (!token || token.role !== 'admin') {
